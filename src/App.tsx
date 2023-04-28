@@ -41,7 +41,7 @@ const App = ()  => {
 
   // const [fruitData, setFruitData] = useState([]);
   const submitFruitForm = () => {
-    
+    console.log('new commnet');
 
 
     console.log("fruitValue", fruitValue);
