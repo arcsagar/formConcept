@@ -44,7 +44,7 @@ const App = ()  => {
     console.log('new commnet');
 
 
-    console.log("fruitValue", fruitValue);
+    console.log("fruitValue is =", fruitValue);
   };
 
   return (
