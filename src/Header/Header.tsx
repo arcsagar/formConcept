@@ -17,9 +17,9 @@ const Header: React.FC<{ fruitData: fruitType[] }> = (props) => {
 
   // console.log('popUpId', popUpId)
   const changePopUpStatus = () => {
-    // console.log("pop is called",openPOPup);
+    console.log("pop is called",openPOPup);
     setOpenPOPup(!openPOPup)
-    // console.log("pop is called",openPOPup);
+    console.log("pop is called",openPOPup);
   };
   return (
     <div className={styless["header-main"]}>
